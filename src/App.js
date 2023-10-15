@@ -4,7 +4,7 @@ import './App.css';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
-import 'firebase/analytics';
+import 'firebase/compat/analytics';
 
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { useCollectionData } from 'react-firebase-hooks/firestore'
@@ -45,6 +45,7 @@ function SingIn() {
 
   const signInWithGoogle = () => {
     const provider = new firebase.auth.GoogleAuthProvider();
+    auth.signInWithPopup(provider);
   }
 
   return (
