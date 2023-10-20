@@ -1,6 +1,7 @@
+My first full-stack web app using react.
 
-My first fullstack webapp using react
+Learning how message apps handle their messages on the backend and display them in the front end, faced challenges. after deprecation errors, dependency errors, and runtime errors was able to successfully compile
 
-this is a superchat using google firebase, reactjs, thanks to http://youtube.com/fireship 
+this is a super chat using Google Firebase, reactjs, thanks to http://youtube.com/fireship 
 
 Thanks for reading this 
