@@ -39,6 +39,9 @@ function App() {
   );
 }
 
+
+/* this is the sign in component */
+
 function SingIn() {
 
   const signInWithGoogle = () => {
